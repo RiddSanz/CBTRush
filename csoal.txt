@@ -1,0 +1,223 @@
+Sarat agar sebuah device dapat saling berkomunikasi adalah ...
+a. memiliki jenis device yang sama
+b. memiliki jenis media yang sama
+c. memiliki jenis protokol yang sama
+d. memiliki jenis kabel yang sama
+answer: C
+
+keuntungan dari penggunaan kabel UTP adalah ...
+a. easy to install, commonly available, popular, max speed 1Gbps
+b. low emissions, less susceptible to interference, max speed 100 Mbps
+c. least susceptible to interference of all copper media, max speed 100 Mbps
+d. more secure , long distance , not susceptible to EMI, highest speeds, max speed 10Gbps - 100Gbps
+answer: a
+
+keuntungan dari penggunaan kabel COAXIAL adalah ...
+a. easy to install, commonly available, popular, max speed 1Gbps
+b. low emissions, less susceptible to interference, max speed 100 Mbps
+c. least susceptible to interference of all copper media, max speed 100 Mbps
+d. more secure , long distance , not susceptible to EMI, highest speeds, max speed 10Gbps - 100Gbps
+answer: c
+
+keuntungan dari penggunaan kabel STP adalah ...
+a. easy to install, commonly available, popular, max speed 1Gbps
+b. low emissions, less susceptible to interference, max speed 100 Mbps
+c. least susceptible to interference of all copper media, max speed 100 Mbps
+d. more secure , long distance , not susceptible to EMI, highest speeds, max speed 10Gbps - 100Gbps
+answer: b
+
+keuntungan dari penggunaan kabel Fiber Optic adalah ...
+a. easy to install, commonly available, popular, max speed 1Gbps
+b. low emissions, less susceptible to interference, max speed 100 Mbps
+c. least susceptible to interference of all copper media, max speed 100 Mbps
+d. more secure , long distance , not susceptible to EMI, highest speeds, max speed 10Gbps - 100Gbps
+answer: d
+
+Tipe transmisi dimana memiliki ciri-ciri sebagai berikut :<br>1. bandwidth 100%<br>2. hanya bisa transmit atau receive
+a. simplex
+b. half duplex
+c. full duplex
+answer: b
+
+sebuah data 1 GB dikirimkan melalui jaringan peer to peer menggunakan media ethernet dengan tipe transmisi full duplex. maka waktu yang diperlukan untuk mengirimkan data tersebut adalah ...
+a. 1s
+b. 2s
+c. 10s
+d. 20s
+e. 100s
+answer: d
+
+sebuah data 1 GB dikirimkan melalui jaringan peer to peer menggunakan media ethernet dengan tipe transmisi half duplex. maka waktu yang diperlukan untuk mengirimkan data tersebut adalah ...
+a. 1s
+b. 10s
+c. 100s
+d. 1000s
+e. tidak ada jawaban
+answer: e
+
+Dibawah ini yang merupakan aplikasi syncronous adalah ...
+a. http
+b. smtp
+c. video chat
+d. dns
+answer: c
+
+protokol untuk web adalah ...
+a. smtp
+b. icmp
+c. http
+d. ftp
+answer: c
+
+apakah kepanjangan dari URL ...
+a. Uniform Resource Identifier 
+b. Uniform Relocator Identifier 
+c. Uniform Resource Identity 
+d. Unity Resource Identifier 
+e. Unity Resource Identity 
+answer: a
+
+Email menggunakan protokol ...
+a. http
+b. dns
+c. ftp
+d. smtp
+answer: d
+
+NTP merupakan aplikasi server yang digunakan untuk ...
+a. layanan untuk web server
+b. layanan untuk penamaan domain
+c. layanan untuk email
+d. layanan untuk waktu
+e. layanan untuk transfer file
+answer: d
+
+one device will send the message to exactly one destination device. method of ...
+a. unicast
+b. multicast
+c. broadcast
+answer: a
+
+sarat sebuah komputer dalam jaringan dapat saling berkomunikasi adalah ...
+a. memiliki ip yang sama
+b. memiliki broadcast id yang sama
+c. memiliki network id yang sama
+answer: c
+
+192.168.1.20/27 berapa subnet mask nya...
+a. 255.255.255.0
+b. 255.255.255.128
+c. 255.255.255.224
+d. 255.255.255.255
+answer: c
+
+192.168.1.20/25 Berapa maksimal Host/IP yang bisa dipakai...
+a. 255
+b. 126
+c. 62
+d. 30
+e. 14
+answer: b
+
+dari gambar dibawah ini , jika diberi bit netmask 25 maka ketiga komputer tersebut tidak dapat berhubungan...
+a. benar
+b. salah
+answer: a
+
+Konektor apa yang digunakan type kabel coaxial ……
+a. BNC
+b. RJ-11
+c. RJ-45
+d. RG-9
+e. Antena
+answer: a
+
+Kecepatan transfer data dalam jaringan diukur dalam satuan...
+a. Hz
+b. Kbps
+c. Bit
+d. Byte
+e. dB
+answer: c
+
+Perintah yang digunakan untuk mengatahui no MAC NIC adalah...
+a. Localhost
+b. Run
+c. Ipconfig
+d. CMD
+e. Ping
+answer: c
+
+Berapakah Net Id dari IP 10001100.10000010.00000101.00000001
+a. 140.132
+b. 141.130
+c. 140.130
+d. 140.131
+e. 140.132
+answer: d
+
+Class pada IPv4 yang digunakan untuk multicast address adalah ...
+a. Class A
+b. Class B
+c. Class C
+d. Class D
+e. Class E
+answer: d
+
+Bit pada IPv4 yang berfungsi identifikasi network address adalah...
+a. Bit network address
+b. Bit host Address 
+c. Bit class
+d. Oktet 
+e. Bit Oktet
+answer: a
+
+Subnet Mask yang dapat digunakan pada IP kelas B adalah….
+
+a. 255.0.0.0
+
+b. 255.255.0.0
+
+c. 255.255.255.248
+
+d. 255.255.255.0
+answer: b
+
+Jenis topologi yang memiliki node tengah sebagai pusat penghubung dari suatu jaringan adalah topologi…. 
+a. Topologi Bus
+ 
+b. Topologi Ring
+ 
+c. Topologi Tree
+ 
+d. Topologi Star 
+answer: d
+
+Protokol yang digunakan untuk alamat sebuah PC disebut….
+a. SMTP
+b. POP3
+c. IMAP 
+d. TCP/IP
+answer: d
+
+Alat yang berfungsi untuk menghubungkan 1 PC dengan PC lainya dalam suatu jaringan local yang bersifat “Manage” , memiliki table ARP dan tidak berfungsi untuk pemfilrter paket adalah ….
+
+a. Router
+
+b. Switch
+
+c. Hub
+
+d. Access Point
+answer: b
+
+Walky Talky termasuk kedalam jenis transmisi….
+
+a. Tripleks
+
+b. Half Duplex 
+
+c. Full Duplex
+
+d. Simplex
+answer: b
