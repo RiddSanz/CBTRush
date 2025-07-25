@@ -1,0 +1,36 @@
+input[type="submit"]{
+	background-color: #4485F5;
+	border-style: solid;
+	border-radius: 2px;
+	color: #fff;
+	border-width: 1px;
+	border-color: #4485F5;
+	padding: 3px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+input[type="submit"]:hover{
+	background-color: #2A5598;
+	color: #fff;
+	cursor: pointer;
+}
+input[type="button"]{
+	background-color: #4485F5;
+	border-style: solid;
+	border-radius: 2px;
+	color: #fff;
+	border-width: 1px;
+	border-color: #4485F5;
+	padding: 3px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+input[type="button"]:hover{
+	background-color: #2A5598;
+	color: #fff;
+	cursor: pointer;
+}
+.progres {
+	float: left;
+	width: 10%;
+}

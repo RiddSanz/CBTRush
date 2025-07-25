@@ -1,0 +1,73 @@
+body {
+  font-size: 1vw;
+}
+table {
+  width: 8.3cm;
+  border: 1px solid #000;
+}
+th {
+  font-size: 10px;
+}
+td {
+  font-size: 10px;
+}
+hr{
+  height:1px; border:none; color:#000; background-color:#000;
+}
+.pinggir {
+  width: 60%;
+}
+.kartu {
+  float: left;
+  height: 4cm;
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+  margin-bottom: 1.2cm;
+}
+@-moz-document url-prefix() {
+    .kartu {
+    float: left;
+    height: 4cm;
+    margin-left: 0.2cm;
+    margin-right: 0.2cm;
+    margin-bottom: 1.4cm;
+  }
+  @media print and (width: 21cm) and (height: 29.7cm) {
+      @page {
+          margin-left: 2cm;
+          margin-right: 2cm;
+          margin-top: 1.35cm;
+          margin-bottom: 1.35cm;
+      }   
+   }
+
+   /* style sheet for "letter" printing */
+   @media print and (width: 8.5in) and (height: 11in) {
+      @page {
+          margin: 1in;
+      }
+   }
+}
+.im {
+  float: left;
+  padding-left: 5px;
+}
+.penyelenggara {
+  float: right;
+}
+.spasip{
+  clear: both;
+  float: left;
+}
+ @media print and (width: 21cm) and (height: 29.7cm) {
+    @page {
+        margin: 3cm;
+    }   
+ }
+
+ /* style sheet for "letter" printing */
+ @media print and (width: 8.5in) and (height: 11in) {
+    @page {
+        margin: 1in;
+    }
+ }

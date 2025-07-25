@@ -1,0 +1,177 @@
+/*  ------ Global settings */
+
+   * {
+      font-family: Cambria, Georgia, serif;
+      }
+
+body {
+      text-align:justify;
+      counter-reset: chapter;
+      }
+
+/* ------- Pagination */
+.cpanel{
+  height: 24.5cm;
+}
+.cpanelkartu{
+  height: 24.5cm;
+}
+h1, h2,.cpanel,.cpanelkartu {
+    page-break-after: avoid;
+    page-break-before: always;
+}
+
+p {
+      orphans:3;
+      widows:3;
+}
+
+/* Default left, right, top, bottom margin is 2cm */
+@page {
+  margin-top: 2cm;
+  margin-left: 1cm;
+  margin-bottom: 2cm;
+  margin-right: 1cm;
+  height: 297mm;
+}
+
+/* First page, 10 cm margin on top */
+/*@page :first {
+  margin-top: 10cm
+}*/
+
+/* Left pages, a wider margin on the left */
+/*
+@page :left {
+  margin-left: 3cm;
+  margin-right: 2cm;
+}
+
+@page :right {
+  margin-left: 2cm;
+  margin-right: 3cm;
+}
+*/
+/* ------ Normal elements */
+
+   p {
+      text-indent:   1.5em;
+      margin-top:    .75em;
+      margin-bottom: .75em;
+      line-height: 1.3;
+      }
+
+/* First paragraphs after a title  */
+
+ h2+p {
+      text-indent: 0em;
+      }
+
+ h2+p:first-letter {
+      font-size: 200%;
+      color: blue;
+      font-family: "Goudy Old Style", Georgia, serif;
+      line-height: 50%;
+      }
+
+ h1,h2,h3,h4,h5,h6 {
+      text-align: center;
+      letter-spacing: 0.1em;
+      }
+
+   h1 {
+      margin-top: 3cm;
+      }
+
+   h2 {
+      border-top: 5px solid blue;
+      border-bottom: 1px solid blue;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 2cm;
+      counter-increment: chapter;
+      }
+
+   h2:before {
+      content: "Chapter " counter(chapter) ": ";
+      }
+
+   hr {
+      width: 50%;
+      text-align: center;
+      }
+
+strong {
+      background-color: yellow;
+      font-style: normal;
+ }
+
+ blockquote {
+      font-size: 90%;
+      margin-left: 20%;
+      margin-right: 20%;
+      }
+
+/*  ------ Special sections, using CSS class identifiers */
+
+ .toc  {
+      text-align:center;
+      margin-top: 2cm;
+      margin-bottom: 2cm;
+      }
+
+ .toc p:first-letter {font-size: 100%;}
+
+ pre {
+      font-family: "Times New Roman", arial, serif;
+      margin-left: 2%;
+      }
+
+ p.fineprint {
+      font-size: 70%;
+      text-indent: 0em;
+      }
+
+ pre.copyright, .noprint {
+     display:none;
+ }
+
+ p.heading {
+      font-size: x-large;
+      text-align: center;
+      }
+.bisi{
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.bno {
+  clear: both;
+  float: left;
+  height: 110px;
+  width: 5%;
+  border-bottom: none;
+}
+.bc2 {
+  float: left;
+  width: 25%;
+  border-bottom: none;
+}
+.bc3{
+  float: left;
+  width: 70%;
+  border-bottom: 1px solid gray;
+}
+.bcatatan {
+  float: left;
+  width: 95%;
+}
+.bstrip {
+  float: left;
+  width: 95%;
+  border-bottom: 1px solid gray;
+}
+.byang {
+  clear: both;
+  padding-bottom: 10px;
+}
