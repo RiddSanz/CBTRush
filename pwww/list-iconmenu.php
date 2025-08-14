@@ -1,0 +1,56 @@
+<?php
+$menucp = "images/cpanel.svg";
+$menuhome = "images/home.png";
+$menupengguna = "images/user.png";
+$menumapel = "images/mapel.png";
+$menuinfo = "images/info.png";
+$menusetujian = "images/seting-ujian.png";
+$menujadwal = "images/jadwal.png";
+$menustatususer = "images/onlineuser1.svg";
+$menukartu = "images/id-card.svg";
+$menutoken = "images/token.svg";
+$menusistem = "images/system.svg";
+$menuupdate = "images/update.svg";
+/*sub menu mapel*/
+$menukd = "images/indexkd2.svg";
+$menuimg = "images/fileimage2.svg";
+$menuav = "images/fileav2.svg";
+$menutxt = "images/txt2.svg";
+$menuexcel = "images/xls.svg";
+$menubackup = "images/backup3.svg";
+$menuexam = "images/exam2.svg";
+$menuhasil = "images/hasil.svg";
+$menuanalisa = "images/analisa2.svg";
+$menulist = "images/list.svg";
+/* menu system*/
+$menuip = "images/ip.svg";
+$menudatabase = "images/database.svg";
+$menujam = "images/waktu.svg";
+$menurestart = "images/restart3.svg";
+$menushutdown = "images/shutdown3.svg";
+$menulog = "images/monitoring3.svg";
+
+/*menu kecil*/
+$menuedit = "images/edit.svg";
+$menudelete = "images/delete2.svg";
+$menuicon = "images/icon.svg";
+$menulock = "images/unlock4.svg";
+$menuunlock = "images/lock2.svg";
+$menupreview = "images/preview3.svg";
+$menupilsoal = "images/question.svg";
+$menupiluser = "images/user2.svg";
+$menufinish = "images/finish.svg";
+$menuunfinish = "images/unfinish2.svg";
+$menufasilitas = "images/menu3.svg";
+$menupass = "images/chpassword.png";
+$menudevice = "images/device.svg";
+$menudevicelock = "images/devicelock.svg";
+$ol = "images/online.svg";
+$off = "images/offline.svg";
+$menucetak = "images/printer.svg";
+$menunan = "images/nan.svg";
+$menuduplicate = "images/duplicate.svg";
+$menubtnrefresh = "images/btrefresh.svg";
+$menukumpulannilai = "images/kumpulan-nilai.png";
+$menunilaiku = "images/nilai.png";
+?>

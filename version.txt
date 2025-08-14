@@ -1,0 +1,4 @@
+2.5
+202106004
+8207934
+Data yang diupdate : <br> Sebelum Update tolong backup VHD terlebih dahulu.<br> Perbaikan beberapa menu dan tampilan login

@@ -1,0 +1,1 @@
+fraction numerator M b over denominator s end fraction
